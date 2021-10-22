@@ -103,5 +103,13 @@ https://www.youtube.com/watch?v=Q-HVtpCHA4c
 
 Patent Files & Description are here in the repository. Submitted and drafted by McCathern Lawfirm out of Dallas Texas. This is also one of the things that was stolen, so again, if the Texas Western District Court is going to allow technology like this to be stolen...The People Must Know
 
+## Remediation
 
+1. I'm working on a solution to prevent a forced usb configuration change. In essence, I can tell that adb does have a usb.sys.persist function, and if we can enable this even with NFC or QR that would be good, but even this solution may cause an exploit in itself
+
+2. Dialer Codes could disable this functionality, but not for all devices, example: *#0808# could be put into a phone dialer and ensuring the device is not set to adb,mtp.
+
+3. Dialer Codes checks could be a good manual way the public could check to see if their device has been compromised. 
+
+### I am working everyday to find a solution for all the vulnerabilites I have revealed, and I will keep everyone updated as I progress, but please contribute your suggestions to this project, I am reaching out to everyone to help solve this issue as quickly as we can so that we can stop bad actors from taking our data futher. 
 
